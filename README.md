@@ -9,8 +9,8 @@ pip install **beutifulsoup4**<br />
 
 # Instruction
 
-Input website url<br />
-Input path to txt files: file1(author), file2(books), file3(author_books)<br />
+Input website url into variable "url"<br />
+Input path to txt files: file1(author), file2(books), file3(author_books) (variables: "file1", "file2", "file3")<br />
 Start parser and wait for the popup window to show up on your screen. Close this window and type smth into console in your IDE<br />
 Wait until parser extract the data<br />
 Parser writes in file1, file2, file3 SQL code for inserting extracted data to the DB<br />
